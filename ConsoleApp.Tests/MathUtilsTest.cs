@@ -39,5 +39,11 @@ namespace ConsoleApp.Tests
             // Assert
             Assert.Throws<ArgumentException>(() => MathUtils.Degree(2, -16));
         }
+
+        [Fact]
+        public void RuinTest()
+        {
+            Assert.True(false);
+        }
     }
 }
